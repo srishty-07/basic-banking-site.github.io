@@ -1,6 +1,7 @@
 
 
-basic-bank-system
+BASIC BANKING SYSTEM
+
 This application is a part of The Spark Foundation Graduate Rotational Internship Program (GRIP).
 
 The requirements were as follows: 
