@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+
+.nav-item{
+    font-weight: bold;
+    font-size: 16px;
+}
+.nav-item:hover{
+  font-size: 17px;
+  
+}
+#contact
+{
+  background:black;
+  color: darkgoldenrod;  
+  margin-bottom: -89px;
+}
+
+/*
+.grid-container {
+  display: inline-grid;
+  grid-column-gap: 47px;
+  margin-top: -431px;
+ 
+}
+.grid-item1,.grid-item2 {
+
+  grid-column-start: 20;
+  background: #212529;
+  color: aliceblue;
+  height:286px;
+  width:408px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 9px;
+  border:5px solid black;
+}
+.grid-item1
+{
+  background:url("graph1.jpg");
+}
+.grid-item2
+{
+  background:url("graph2.png");
+}
+*/
+/* Container holding the image and the text */
+.image{
+    background: url(transfer.jpg)no-repeat center center/cover;
+    height: 92vh;  
+    opacity:0.96;
+    
+}
+.title1{
+  font-size: 65px;
+  margin: 49px auto;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 502px;
+  font-family: 'Permanent Marker', cursive;
+  background: #ffffff6e;
+  border-radius:1.4em;
+  padding:7px 18px;
+  
+}
+
+.title{
+    text-align: center;
+    margin-top: 36px;
+    color: black;
+    height: 42px;
+    font-size: 41px;
+    font-family: 'Kaushan Script', cursive;
+}
+.title1{
+  color: #000000;
+}
+/* branches section */
+#connection-section{
+  /* section jo banya hai jisme logos ayenge uski height specify kari hai as 344px */
+  /* height: 290px; */
+  position: relative;
+  
+}
+#connection-section::before{
+  content:"";
+  position:absolute;
+  background: url('/int/bg.gif')no-repeat center center/cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.6;
+}
+#connectionus{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:#af9a5d;;
+  margin-top: -12px;
+}
+.connection{
+  padding: 0px;
+  
+}
+.connection img{
+  
+  width: 147px;
+  margin: 47px;
+  /* border-radius: 10em; */
+  box-shadow: 26px 15px 21px rgb(0 0 0 / 39%);
+  /* flex-wrap: wrap; */
+}
+.connection img:hover{
+  box-shadow:26px 15px 21px #5c855c ;
+  
+}
+/*  */
+/* .connection div{
+  position: absolute;
+    color: #000;
+    padding: 3px;
+    top: 190px;
+    bottom: -22px;
+  
+    left: 542px;
+    background-color: rgb(0 0 0 / 0%);
+    border-radius: 16px;
+    padding-top: 35%;
+    text-align: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: 1.3s
+}
+.connection.show div{
+  opacity: 1;
+    padding-top: 3%;
+    visibility: visible;
+    padding: 12px;
+    font-size: xxx-large;
+} */
+
+/*  */
+.third-heading{
+  
+  background: #664d03;
+  font-size: 2rem;
+  padding: 12px;
+  color: rgb(5, 5, 5);
+  text-align: center;
+  /* margin: 15px 14px; */
+  /* font-family: 'Big Shoulders Stencil Text', cursive; */
+  font-family: 'Redressed', cursive;
+
+}
+
+/*  */
+
+.click{
+  
+  border: 2px solid #212529;
+  margin: 37px 517px;
+  padding: 7px 39px;
+  background: #ffffff94;
+  color: #488719;
+  font-size: 17px;
+  /* font-style: inherit; */
+  font-weight: bolder;
+  border-radius: 15px;
+  outline: none;
+}
+.click:hover{
+  background: #65ad5c;
+    color: white;
+}
+
+footer{
+        margin-top: 90px;
+        background: black;
+        color: white;
+        width: 100%;
+        margin-left: 0;
+        height: 49px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.socialmedia{
+    padding:0px 9px;
+}
+.fa {
+    padding: 7px;
+    font-size: 14px;
+    width: 31px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 3px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-facebook:hover{
+	background: #3B5998;
+    color: white;
+}
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-linkedin:hover{
+	background: #007bb5;
+    color: white;
+}
+  .fa-instagram {
+    background:#ce0642;
+    color: white;
+  }
+  .fa-instagram:hover{
+	background: #ce0642;
+    color: white;
+}
+.fa-twitter {
+  background: #007bb5;
+  color: white;
+}
+.fa-twitter:hover{
+background: #007bb5;
+  color: white;
+}
+
+/* transaction history and transfer money page css */
+.design{
+  animation: fadeIn ease-in-out 1s;
+}
+@keyframes fadeIn{
+      0% {
+      opacity:0;
+      }
+      100% {
+      opacity:1;
+      }
+  }
