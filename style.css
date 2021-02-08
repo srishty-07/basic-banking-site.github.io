@@ -24,8 +24,9 @@ html{
   margin-bottom: -89px;
 }
 
-/*
-.grid-container {
+
+/*grid commands for bank map */
+/*.grid-container {
   display: inline-grid;
   grid-column-gap: 47px;
   margin-top: -431px;
@@ -86,8 +87,7 @@ html{
 }
 /* branches section */
 #connection-section{
-  /* section jo banya hai jisme logos ayenge uski height specify kari hai as 344px */
-  /* height: 290px; */
+  
   position: relative;
   
 }
