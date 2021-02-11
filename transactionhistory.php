@@ -97,7 +97,9 @@
             <td class="py-2 active"><?php echo $rows['receiver']; ?></td>
             <td class="py-2 warning"><?php echo $rows['balance']; ?> </td>
             <td class="py-2 active"><?php echo $rows['datetime']; ?> </td>
-                
+           
+              
+              
         <?php
             }
 
